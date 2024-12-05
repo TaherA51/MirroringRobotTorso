@@ -11,7 +11,7 @@ This Arduino sketch tests basic robot movements, including:
 - Turning left and right
 - Stopping (fast and slow)
 
-It uses the Arduino Robot library to control motor functions[1].
+It uses the Arduino Robot library to control motor functions
 
 ### MirrorRobotArm_BetaV1.ino
 
@@ -21,7 +21,7 @@ This is the core functionality for mirroring human movements. It:
 - Receives pose data and translates it into motor angles
 - Controls shoulder pitch, shoulder roll, and elbow movements
 
-The code ensures received angles are constrained within the operational range of 0 to 180 degrees[2].
+The code ensures received angles are constrained within the operational range of 0 to 180 degrees.
 
 ## Setup
 
